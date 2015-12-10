@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Do user scripts by Jdesk</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Do user scripts</h1>
+        <p></p>
+
+        <p class="view"><a href="https://github.com/Jdesk/do_user_scripts">View the Project on GitHub <small>Jdesk/do_user_scripts</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/Jdesk/do_user_scripts/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/Jdesk/do_user_scripts/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/Jdesk/do_user_scripts">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>
+<a id="digitalocean-user-scripts-library" class="anchor" href="#digitalocean-user-scripts-library" aria-hidden="true"><span class="octicon octicon-link"></span></a>DigitalOcean User Scripts Library</h1>
+
+<p>This repository contains a collection of scripts that can be used to help provision
+your Droplet on first boot. When creating a new Droplet, they can be provided as
+"user data." To sign up for a free Digitalocean account visit <a href="https://www.digitalocean.com/?refcode=14421caf17a0">Digitalocean Free Trial</a></p>
+
+<p><img src="https://assets.digitalocean.com/articles/metadata/user-data.png" alt="DigitalOcean Control Panel"></p>
+
+<p>For an introduction for the technologies involved, check out these articles from
+<a href="https://www.digitalocean.com/community/">the DigitalOcean Community</a> as well as
+the <a href="https://cloudinit.readthedocs.org/en/latest/">upstream cloud-init documentation</a>:</p>
+
+<ul>
+<li><a href="https://www.digitalocean.com/community/tutorials/an-introduction-to-droplet-metadata">An Introduction to Droplet Metadata</a></li>
+<li><a href="https://www.digitalocean.com/community/tutorials/an-introduction-to-cloud-config-scripting">An Introduction to Cloud-Config Scripting</a></li>
+<li><a href="https://www.digitalocean.com/community/tutorials/how-to-use-cloud-config-for-your-initial-server-setup">How To Use Cloud-Config For Your Initial Server Setup</a></li>
+</ul>
+
+<h2>
+<a id="contributing" class="anchor" href="#contributing" aria-hidden="true"><span class="octicon octicon-link"></span></a>Contributing</h2>
+
+<p>Scripts in this repository can be in one of two formats, shell scripts and
+cloud-config files. In order to encourage simplicity and readability, it is
+highly encouraged to use the declarative cloud-config file format when possible.</p>
+
+<p>Each directory must contain a README.md file describing the scripts contained
+within it, including the target platform and a description of any needed user
+input. As these scripts are not interactive, please use the standardized
+format of <strong><code>&lt;%DESCRIPTIVE_NAME%&gt;</code></strong> for variables that should be provided by
+the user before running the script. (See the <code>examples/</code> directory.)</p>
+
+<h2>
+<a id="feedback" class="anchor" href="#feedback" aria-hidden="true"><span class="octicon octicon-link"></span></a>Feedback</h2>
+
+<p>This project is an experiment, and it won't be successful without your feedback.
+Let us know what you think by <a href="https://github.com/digitalocean/do_user_scripts/issues">opening an issue here on GitHub</a>.</p>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/Jdesk">Jdesk</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
